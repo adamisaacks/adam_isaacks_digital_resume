@@ -1,0 +1,8 @@
+.navbar {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.303);
+}
+
+.nav-link {
+  color: white;
+}
