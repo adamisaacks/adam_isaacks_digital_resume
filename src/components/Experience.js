@@ -18,7 +18,7 @@ function EngineeringResume() {
         {/* Container Title */}
         <Row className="pt-4 pb-2">
           <Col className="text-center">
-            <h1 className="font-weight-bold">Proffessional Experience</h1>
+            <h1 className="font-weight-bold">Professional Experience</h1>
             <h3 className="font-weight-light">Engineering</h3>
           </Col>
         </Row>
