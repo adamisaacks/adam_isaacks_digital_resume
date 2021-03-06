@@ -10,6 +10,15 @@
       name="description"
       content="Adam Isaacks Personal Website & Digital Resume - Check it out!"
     />
+    <script>
+      var host = "www.adamisaacks.com";
+      if (
+        host == window.location.host &&
+        window.location.protocol != "https:"
+      ) {
+        window.location.protocol = "https";
+      }
+    </script>
     <!-- <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" /> -->
     <!--
       manifest.json provides metadata used when your web app is installed on a
