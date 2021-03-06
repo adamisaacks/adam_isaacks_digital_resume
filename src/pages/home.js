@@ -1,7 +1,9 @@
 import React from "react";
 import AboutMe from "../components/AboutMe";
 import Development from "../components/Development";
-import EngineeringResume from "../components/Engineering";
+import EngineeringResume from "../components/Experience";
+import Education from "../components/Education";
+import Footer from "../components/Footer";
 
 function Home() {
   return (
@@ -9,6 +11,8 @@ function Home() {
       <AboutMe />
       <Development />
       <EngineeringResume />
+      <Education />
+      <Footer />
     </>
   );
 }

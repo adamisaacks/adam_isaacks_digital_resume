@@ -6,27 +6,30 @@ import { Navbar, Nav } from "react-bootstrap";
 function Navi() {
   return (
     <>
-      <Navbar expand="lg">
-        <Link to="/" className="nav-link">
-          AI
+      <Navbar expand="lg" sticky="top">
+        <Link to="/" className="nav-link d-block d-sm-none">
+          <b>Home</b>
         </Link>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" className="bg-light" />
         <Navbar.Collapse
           id="basic-navbar-nav"
-          className="justify-content-center justify-content-xs-center"
+          className="justify-content-center font-weight-bold"
         >
-          <Link className="nav-link" to="/About">
-            About
+          <Link to="/" className="nav-link d-none d-md-block">
+            Home
           </Link>
-          <Link className="nav-link" to="/Development">
+          <a className="nav-link" href="#development">
             Development
-          </Link>
-          <Link className="nav-link" to="/Engineering">
-            Engineering
-          </Link>
-          <Link className="nav-link" to="/Contact">
+          </a>
+          <a className="nav-link" href="#engineering">
+            Experience
+          </a>
+          <a className="nav-link" href="#education">
+            Education
+          </a>
+          <a className="nav-link" href="#contact">
             Contact
-          </Link>
+          </a>
         </Navbar.Collapse>
       </Navbar>
     </>

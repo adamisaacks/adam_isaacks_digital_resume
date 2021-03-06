@@ -9,8 +9,12 @@ function Development() {
       fluid
       style={{ backgroundColor: "#EBBA7A" }}
       className="text-white"
+      id="development"
     >
       <Container>
+        <Row>
+          <br></br>
+        </Row>
         <Row className="pt-4 pb-2">
           <Col className="text-center">
             <h1 className="font-weight-bold">Development</h1>
@@ -21,7 +25,7 @@ function Development() {
           <Col lg={5}>
             <img
               src={THM}
-              className="img-fluid"
+              className="img-fluid pb-4 pb-md-0 pb-lg-0"
               style={{ borderRadius: "10px" }}
             />
           </Col>
@@ -34,21 +38,21 @@ function Development() {
             </p>
           </Col>
         </Row>
-        <Row className="align-items-center pt-4 pb-4">
-          <Col style={{ order: "2" }}>
+        <Row className=" align-items-center pt-4 pb-4">
+          <Col className="col-12 col-md-5 order-md-last">
             <img
               src={DCV}
-              className="img-fluid"
+              className="img-fluid pb-4 pb-md-0 pb-lg-0"
               style={{ borderRadius: "10px" }}
             />
-            <Col style={{ order: "1" }}>
-              <h3>Personal Website / Digital Resume </h3>
-              <p>
-                Created a personal website to create my own brand and showcase
-                my design/development ability. Frontend - React - Bootstrap -
-                Designed in Figma
-              </p>
-            </Col>
+          </Col>
+          <Col className="col-12 col-md-7 order-md-first">
+            <h3>Personal Website / Digital Resume </h3>
+            <p>
+              Created a personal website to create my own brand and showcase my
+              design/development ability. Frontend - React - Bootstrap -
+              Designed in Figma
+            </p>
           </Col>
         </Row>
       </Container>
