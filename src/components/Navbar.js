@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import { Navbar, Nav } from "react-bootstrap";
+import { Navbar } from "react-bootstrap";
 
 function Navi() {
   return (
@@ -15,9 +15,9 @@ function Navi() {
           id="basic-navbar-nav"
           className="justify-content-center font-weight-bold"
         >
-          <Link to="/" className="nav-link d-none d-md-block">
+          <a href="#top" className="nav-link d-none d-md-block">
             Home
-          </Link>
+          </a>
           <a className="nav-link" href="#development">
             Development
           </a>

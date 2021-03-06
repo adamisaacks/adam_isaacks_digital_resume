@@ -17,7 +17,7 @@ function Development() {
         </Row>
         <Row className="pt-4 pb-2">
           <Col className="text-center">
-            <h1 className="font-weight-bold">Development</h1>
+            <h1 className="font-weight-bold">Software Development</h1>
             <h3 className="font-weight-light">Projects</h3>
           </Col>
         </Row>
