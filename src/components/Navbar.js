@@ -19,10 +19,10 @@ function Navi() {
             Home
           </a>
           <a className="nav-link" href="#development">
-            Development
+            Software
           </a>
           <a className="nav-link" href="#engineering">
-            Experience
+            Engineering
           </a>
           <a className="nav-link" href="#education">
             Education
