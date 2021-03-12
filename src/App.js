@@ -2,6 +2,10 @@ import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navi from "./components/Navbar";
 import Home from "./pages/home";
+import ReactGA from "react-ga";
+
+ReactGA.initialize("UA-191997244-1");
+ReactGA.pageview("/");
 
 function App() {
   return (
