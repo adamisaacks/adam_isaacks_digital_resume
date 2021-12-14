@@ -41,6 +41,37 @@ function AboutMe() {
           <h2 className="font-weight-light">Software Developer</h2>
           <h2 className="font-weight-light">Mechanical Engineer</h2>
           <h2 className="font-weight-light">Traveler</h2>
+          <Row className="pt-4">
+            <Col>
+              <a href="mailto:adamisaacks@gmail.com" id="fontAwesomeFooter">
+                <i className="fas fa-at"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/adamisaacks/"
+                target="_blank"
+                rel="noreferrer"
+                id="fontAwesomeFooter"
+              >
+                <i className="fab fa-linkedin"></i>
+              </a>
+              <a
+                href="https://www.facebook.com/adam.isaacks"
+                target="_blank"
+                rel="noreferrer"
+                id="fontAwesomeFooter"
+              >
+                <i className="fab fa-facebook-f"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/iswcks/?hl=en"
+                target="_blank"
+                rel="noreferrer"
+                id="fontAwesomeFooter"
+              >
+                <i className="fab fa-instagram"></i>
+              </a>
+            </Col>
+          </Row>
         </Col>
       </Row>
     </Container>
