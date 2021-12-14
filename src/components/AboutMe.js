@@ -14,11 +14,13 @@ function AboutMe() {
             src={img1}
             className="img-fluid p-2"
             style={{ borderRadius: "30px" }}
+            alt="author"
           />
           <img
             src={img2}
             className="img-fluid p-2 d-none d-md-block"
             style={{ borderRadius: "30px" }}
+            alt="author"
           />
         </Col>
         <Col className="col-12 col-md-3">
@@ -26,11 +28,13 @@ function AboutMe() {
             src={img3}
             className="img-fluid p-2 d-none d-md-block"
             style={{ borderRadius: "30px" }}
+            alt="author"
           />
           <img
             src={img4}
             className="img-fluid p-2 d-none d-md-block"
             style={{ borderRadius: "30px" }}
+            alt="author"
           />
         </Col>
         <Col className="text-center text-md-left col-12 col-md-6 order-md-first">
@@ -38,8 +42,8 @@ function AboutMe() {
             Adam Isaacks
           </h1>
           <br className="d-none d-md-block" />
-          <h2 className="font-weight-light">Software Developer</h2>
           <h2 className="font-weight-light">Mechanical Engineer</h2>
+          <h2 className="font-weight-light">Software Developer</h2>
           <h2 className="font-weight-light">Traveler</h2>
           <Row className="pt-4">
             <Col>

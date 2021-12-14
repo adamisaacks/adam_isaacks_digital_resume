@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import bp from "../assets/bpLogo.png";
-import apple from "../assets/Apple_Computer_Logo_rainbow.svg";
 import Resume from "../assets/Adam Isaacks Resume 2021 Web.pdf";
 
 function EngineeringResume() {
@@ -29,7 +28,7 @@ function EngineeringResume() {
         {/* bp Logo Section */}
         <Row>
           <Col className="d-flex align-items-center justify-content-center">
-            <img src={bp} style={{ maxHeight: "10vh" }} />
+            <img src={bp} style={{ maxHeight: "10vh" }} alt="bp logo" />
           </Col>
         </Row>
         {/* Job 2 */}

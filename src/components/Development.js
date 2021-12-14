@@ -27,6 +27,7 @@ function Development() {
               src={THM}
               className="img-fluid pb-4 pb-md-0 pb-lg-0"
               style={{ borderRadius: "10px" }}
+              alt="Historical Marker Webpage"
             />
           </Col>
           <Col lg={7}>
@@ -44,6 +45,7 @@ function Development() {
               src={DCV}
               className="img-fluid pb-4 pb-md-0 pb-lg-0"
               style={{ borderRadius: "10px" }}
+              alt="Personal Website"
             />
           </Col>
           <Col className="col-12 col-md-7 order-md-first">
