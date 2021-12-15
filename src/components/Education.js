@@ -25,7 +25,6 @@ function Education() {
               src={TAMUseal}
               className="img-fluid pb-4 pb-md-0 pb-lg-0"
               style={{ borderRadius: "10px" }}
-              alt="Texas A&M Logo"
             />
           </Col>
           <Col lg={9}>
